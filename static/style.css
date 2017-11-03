@@ -1,0 +1,36 @@
+.container{
+    width: 45%;
+    margin: 10% auto;
+    padding: 10%;
+    text-align: center;
+}
+input{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    width: 200px;
+}
+.button{
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    background: buttonface;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+#winner, #tryAgain{
+    border: 2px solid black;
+    color: white;
+    width: 400px;
+    height: 150px;
+    margin-right: 0px;
+    margin-left: 110px;
+    padding: 10px;
+}
+#winner{
+    background: green;
+}
+#tryAgain{
+    background: red;
+}
