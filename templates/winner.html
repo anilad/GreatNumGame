@@ -14,7 +14,10 @@
         <p>Take a guess!</p>
         <div id='winner'>
             <h1>{{session['key']}} was the number!</h1>
-            <a class = button href="/reset">Play Again!</a>
+            <form action="/reset">
+                <button type="submit">Play Again!</button>
+            </form>
+            
         </div>
     </div>
 </body>

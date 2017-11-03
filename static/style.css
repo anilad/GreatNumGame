@@ -10,14 +10,8 @@ input{
     margin-bottom: 3px;
     width: 200px;
 }
-.button{
+button{
     width: 150px;
-    text-decoration: none;
-    color: black;
-    background: buttonface;
-    border-radius: 4px;
-    padding: 5px;
-    border: 1px solid grey;
 }
 #winner, #tryAgain{
     border: 2px solid black;
